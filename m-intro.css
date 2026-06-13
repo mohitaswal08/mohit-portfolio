@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for header bg */
+#body-header{
+    height: 55vh;
+    background-image: url("run.jpg");
+    /* opacity: 0.5; */
+    background-attachment:scroll;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+/* for navigation bar: */
+#horizon li{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 10%;
+    font-size:xx-large;
+    
+}
+#horizon li a{
+    color:rgb(236, 7, 7);;
+    text-decoration: none;
+}
+#horizon li a:hover{
+    color:rgb(125, 45, 45); 
+    transition: 0.5s;
+    border-bottom: 1px red solid
+}    
+.centre{
+    text-align: center;
+}
+#social-icons{
+    margin-top: 20vh;
+   
+}
+#name{
+    color: aliceblue;
+    margin-left: 35%;
+    font-weight:bolder;
+    font-size: x-large;
+}
+.icons li a i{
+    color: rgb(234, 96, 10);
+}
+.icons{
+    display: flex;
+    list-style: none;
+    font-size: xx-large;
+    margin-left: 450px;
+    margin-top: 17px;
+    /* font-weight:900; */
+    /* padding: 100px; */
+    gap:30px;
+}
+#dp{
+    background-image: url("dp.jpg");
+    height: 180px;
+    width: 195px;
+    border-radius: 100px;
+    margin-left: 40%;
+    margin-bottom:60%;
+    position:absolute;
+    background-size: contain;
+}
+#para{
+    margin-top: 10%;
+    font-size:larger;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.headings h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
