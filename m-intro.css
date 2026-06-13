@@ -46,6 +46,10 @@
 }
 .icons li a i{
     color: rgb(234, 96, 10);
+    margin-left: 5rem;
+}
+.linkdin-icon {
+    color: red;
 }
 .icons{
     display: flex;
